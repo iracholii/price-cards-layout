@@ -1,0 +1,135 @@
+@import 'variables.scss';
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding: 33px 0 40px 0;
+  background-color: $backgroud-color-section;
+
+  &_popular {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__badge {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    width: 147px;
+    transform: rotate(45deg);
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color: $backgroud-color-for-popular-badge;
+  }
+
+  &__title {
+    margin: 0;
+    line-height: 43px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin: 0 0 33px 0;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__price {
+    height: 105px;
+    line-height: 67px;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding: 19px 0;
+
+    &_green {
+      background-color: $theme-color-green;
+    }
+
+    &_blue {
+      background-color: $theme-color-blue;
+    }
+
+    &_orange {
+      background-color: $theme-color-orange;
+    }
+  }
+
+  &__description {
+    margin: 40px 26px;
+    height: 36px;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__options-list {
+    margin: 0 0 39px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__options-list-item {
+    display: flex;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+
+    &_odd {
+      background-color: $odd-list-items-background-color;
+    }
+  }
+
+  &__icon {
+    width: 15px;
+    height: 13px;
+    margin: 18px 22px 19px 22px;
+  }
+
+  &__icon_green {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+
+  &__icon_blue {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+
+  &__icon_orange {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+
+  &__order-btn {
+    height: 40px;
+    width: 155px;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: $text-color;
+
+    &_green {
+      background-color: $theme-color-green;
+    }
+
+    &_blue {
+      background-color: $theme-color-blue;
+    }
+
+    &_orange {
+      background-color: $theme-color-orange;
+    }
+  }
+}

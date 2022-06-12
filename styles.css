@@ -1,0 +1,138 @@
+.price-card {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding: 33px 0 40px 0;
+  background-color: #334247;
+}
+.price-card_popular {
+  position: relative;
+  overflow: hidden;
+}
+.price-card__badge {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  width: 147px;
+  transform: rotate(45deg);
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #dc3f45;
+}
+.price-card__title {
+  margin: 0;
+  line-height: 43px;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.price-card__subtitle {
+  margin: 0 0 33px 0;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.price-card__price {
+  height: 105px;
+  line-height: 67px;
+  font-size: 55px;
+  font-weight: 700;
+  text-align: center;
+  padding: 19px 0;
+}
+.price-card__price_green {
+  background-color: #5bb189;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.price-card__price_orange {
+  background-color: #ec632a;
+}
+.price-card__description {
+  margin: 40px 26px;
+  height: 36px;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+.price-card__options-list {
+  margin: 0 0 39px 0;
+  padding: 0;
+  list-style-type: none;
+}
+.price-card__options-list-item {
+  display: flex;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+}
+.price-card__options-list-item_odd {
+  background-color: #2a3438;
+}
+.price-card__icon {
+  width: 15px;
+  height: 13px;
+  margin: 18px 22px 19px 22px;
+}
+.price-card__icon_green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+.price-card__icon_blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+.price-card__icon_orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+.price-card__order-btn {
+  height: 40px;
+  width: 155px;
+  margin: auto;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  line-height: 17px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+.price-card__order-btn_green {
+  background-color: #5bb189;
+}
+.price-card__order-btn_blue {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn_orange {
+  background-color: #ec632a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #141b1c;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  margin: auto;
+  gap: 18px;
+}
+
+/*# sourceMappingURL=styles.css.map */
